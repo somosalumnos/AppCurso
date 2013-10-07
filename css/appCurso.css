@@ -1,0 +1,40 @@
+/* Clases */
+.centrado {
+	text-align: center;
+}
+
+/* Botonera header */
+div[data-role="header"] .botonera a {
+	margin-left: 0.5em;
+}
+
+#pageHome a[href="#pageHome"] {
+	display: none;
+}
+
+
+/* Contactos */
+#listaContactos {
+	margin-top: 2em;
+}
+#listadoContactos li span {
+	display: block;
+}
+#listadoContactos li span.tlf,
+#listadoContactos li span.email {
+	margin: 0.5em 2em;
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+/* Mapa */
+#mapa {
+	height: 300px;
+}
+
+
+/* Cámara */
+.photo {
+	max-width: 100%;
+	display: none;
+}
